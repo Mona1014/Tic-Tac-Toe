@@ -6,7 +6,10 @@ body{
     margin:0;
     background-image: url("./bg_WTD_3.jpg");
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
     /* background-color: #83c5be; */
 }
 
@@ -129,7 +132,8 @@ h1{
 .board.o .cell:not(.x):not(.o):hover::after{
     width: calc(var(--mark-size)*.7);
     height:  calc(var(--mark-size)*.7);
-    background-color: #e1f8f7;
+    background-color: #e8fffe;
+    /* background-color: #83c5be; */
 }
 
 .cell.x,
