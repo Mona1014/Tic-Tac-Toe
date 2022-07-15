@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Patrick+Hand&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <h1>TIC-TAC-TOE</h1>
+    <!-- div tag with name board has all the elements required for the game -->
+    <!-- class tag for css and board tag for js -->
+
+    <div class="board" id="board">
+        <!-- 9 boxes, data-cell for js -->
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <div class="winning-msg" id="win-msg">
+        <!-- to display who wins the game -->
+        <div data-winning-message-text></div>
+        <!--button to restart -->
+        <button id="restartButton">Restart</button>
+    </div>
+
+</body>
+</html>
